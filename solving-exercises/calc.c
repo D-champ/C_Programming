@@ -39,6 +39,7 @@ int main()
             break;
         default:
             printf("ERROR\n");
+            break;
     }
     
     return 0;
