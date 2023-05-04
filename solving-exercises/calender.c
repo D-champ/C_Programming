@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ * main - entry
+ * Return: 0
+ */
 int main()
 {
-    /* receive a number represnting month based on the month number.*/
     int num;
     printf("Enter the month number: ");
     scanf("%d", &num);
