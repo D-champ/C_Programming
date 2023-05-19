@@ -16,7 +16,8 @@ int main()
     }
 
     printf("You entered %d grades! \n", count);
-    printf("Your AVERAGE GRADE is %.2f \n", (float)sum/count);
+    if (grade!=0)
+        printf("Your AVERAGE GRADE is %.2f \n", (float)sum/count);
 
     return 0;
 }
